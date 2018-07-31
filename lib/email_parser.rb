@@ -11,6 +11,6 @@ class EmailParser
   end 
 end 
 
-EmailParser.new(emails)
+EmailParser.new(@emails)
 
 parser.parse
