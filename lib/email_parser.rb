@@ -10,3 +10,7 @@ class EmailParser
     @emails.split(/[,\s]+/)
   end 
 end 
+
+EmailParser.new(emails)
+
+parser.parse
