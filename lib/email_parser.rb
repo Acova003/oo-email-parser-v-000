@@ -12,6 +12,6 @@ class EmailParser
   
   def self.parse
     binding.pry
-    @emails.split(/[" ",]/)
+    @emails.split(/[,\s]+/)
   end 
 end 
